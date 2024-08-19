@@ -2,6 +2,10 @@
 
 This repository contains my solutions to various challenges from [Frontend Mentor](https://www.frontendmentor.io/). These challenges have helped me practice and improve my skills in HTML and traditional CSS. Please note that the designs are not responsive, and I have not yet learned Flexbox or other modern layout techniques.
 
+
+This version of the README reflects the fact that the designs are not responsive and that traditional CSS was used for layout, without Flexbox or Grid.
+
+
 ## Challenges
 
 ### 1. QR Code Component
@@ -37,4 +41,4 @@ To view each challenge in your browser:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/frontend-mentor-challenges.git
+   git clone https://github.com/dmsimara/HTML-CSS-Challenges.git
