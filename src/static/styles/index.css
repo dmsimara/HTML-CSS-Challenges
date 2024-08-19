@@ -2,21 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --skyblue: #CDF0FF /*background-color*/
+    --skyblue: #CDF0FF; /*background-color*/
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Raleway', sans-serif;
 }
 
-html, body{
+html, body {
     background-color: var(--skyblue);
+    margin: 0;
+    font-family: var(--font-primary);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.qr-code-container{
-    padding: 25px;
+.qr-code-container {
+    padding: 15px;
     background-color: white;
-    width: 50%;
+    width: 300px;
+    max-width: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
     border-radius: 20px;
 }
 
-.qr-image{
-    position: center;
-    border-radius: 20px;
+.qr-title {
+    font-size: 20px;
+    font-family: var(--font-secondary);
+    margin: 15px 0;
+}
+
+.qr-info {
+    font-size: 16px;
+    color: #666;
 }

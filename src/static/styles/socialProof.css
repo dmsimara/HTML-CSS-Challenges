@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --primary-magenta: hsl(300, 43%, 22%);
+    --primary-pink: hsl(333, 80%, 67%);
+    --dark-magenta: hsl(303, 10%, 53%);
+    --light-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --font-primary: 'League Spartan', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url(../images/socialProof/bg-pattern-top-desktop.svg), url(../images/socialProof/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 50%;
+    margin-left: 30px;
+}
+
+.container {
+    font-family: var(--font-primary);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#info-1 {
+    color: var(--primary-magenta);
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.ratings { 
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+#rating1{
+    background-color: var(--light-magenta);
+    padding: 5px 40px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 50px;
+}
+
+#rating2{
+    background-color: var(--light-magenta);
+    padding: 5px 40px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 15px;
+    position: relative;
+    left: 95px;
+}
+
+#rating3{
+    background-color: var(--light-magenta);
+    padding: 5px 40px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: relative;
+    left: 150px;
+}
+
+.desc {
+    display: inline-block;
+    padding-left: 20px;
+    color: var(--primary-magenta);
+    font-weight: 600;
+}
+
+#info-2 {
+    color: var(--dark-magenta);
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.proof {
+    clear: both;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.picture {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.name {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+    top: -70px;
+}
+
+.nametag {
+    color: var(--primary-pink);
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: -102px;
+}
+
+.testimony {
+    color: var(--white);
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    line-height: 1.3;
+
+}
+
+#colton {
+    background-color: var(--primary-magenta);
+    padding: 15px;
+    margin-right: 25px;
+    border-radius: 12px;
+    width: 350px;
+    height: 225px;
+    margin-left: 10px;
+}
+
+#irene {
+    background-color: var(--primary-magenta);
+    padding: 15px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 12px;
+    width: 350px;
+    margin-top: 20px;
+    height: 225px;
+    
+}
+
+#anne {
+    background-color: var(--primary-magenta);
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 12px;
+    width: 350px;
+    margin-top: 50px;
+    height: 225px;
+    margin-left: 5px;
+}

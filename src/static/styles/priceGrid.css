@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-ray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --font-family: "Karla", sans-serif;
+    --white: #ffff;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--light-ray);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+}
+
+.main-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.first-container {
+    box-sizing: border-box;
+    background-color: var(--white);
+    padding: 20px;
+    padding-left: 40px;
+    text-align: left;
+    height: 200px;
+}
+
+.upper1 {
+    color: var(--cyan);
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.upper2 {
+    color: var(--bright-yellow);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.upper3 {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.second-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+#left-container, #right-container {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: left;
+    height: 200px;
+}
+
+#left-container {
+    background-color: var(--cyan);
+    padding-left: 40px;
+}
+
+.left1 {
+    color: var(--white);
+}
+
+.left2 {
+    color: var(--white);
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.left3 {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 200;
+    position: relative;
+    top: -45px;
+    left: 75px;
+}
+
+.left4 {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: -45px;
+}
+
+
+
+.btn-left {
+    position: relative;
+    padding: 10px 70px;
+    top: 4px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+    background-color: var(--bright-yellow);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#right-container {
+    background-color: #46c7ddce;
+    padding-left: 40px;
+    color: var(--white);
+}
+
+.right1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.right2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-top: 8px;
+}
